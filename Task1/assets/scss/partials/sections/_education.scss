@@ -1,0 +1,61 @@
+@import "../mixin";
+.card {
+    width: 277px;
+    height: 200px;
+}
+
+#education,
+#why-code-az,
+#our-alumni {
+    .title {
+        h3 {
+            width: 100px;
+            position: relative;
+
+            span:nth-child(1) {
+                font-weight: 900;
+            }
+
+            span:nth-child(2) {
+                font-weight: 200;
+            }
+        }
+
+        p {
+            width: 500px;
+            margin-top: 90px;
+        }
+    }
+}
+
+
+.education-item p {
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+#education { 
+    margin-top:60px;
+
+    .purple:hover {
+        @include hover($background-color: rgb(135, 35, 135))
+    }
+
+    .yellow:hover {
+        @include hover($background-color: rgb(215, 215, 40));
+    }
+
+    .blue:hover {
+        @include hover($background-color: rgb(51, 51, 165));
+    }
+
+    .green:hover {
+        @include hover($background-color: green);
+    }
+
+    .title h3::after {
+        @include gradient($width: 80px,$height: 3px);
+        right: 20px;
+        margin: 40px 0px;
+    }
+}

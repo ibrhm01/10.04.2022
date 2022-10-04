@@ -1,0 +1,57 @@
+#digital-marketinq .personal {
+  border: 1px solid rgb(47, 47, 47);
+}
+#digital-marketinq .personal h4 {
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  color: rgb(72, 72, 72);
+}
+#digital-marketinq .personal .btn button {
+  position: relative;
+  top: 120px;
+  left: 20px;
+  border: 0px;
+}
+#digital-marketinq .personal p {
+  position: relative;
+  top: 30px;
+  padding: 0px 30px;
+}
+#digital-marketinq .cooperative {
+  border: 1px solid rgb(49, 49, 49);
+}
+#digital-marketinq .cooperative h4 {
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  color: rgb(72, 72, 72);
+}
+#digital-marketinq .cooperative .btn button {
+  position: relative;
+  top: 170px;
+  left: 20px;
+  border: 0px;
+}
+#digital-marketinq .cooperative p {
+  position: relative;
+  top: 30px;
+  padding: 0px 30px;
+}
+#digital-marketinq .btn button {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(150, 2, 150);
+  padding: 15px 45px;
+}
+#digital-marketinq .personal,
+#digital-marketinq .cooperative {
+  height: 400px;
+}
+
+.row-digital-marketinq {
+  position: relative;
+  top: 150px;
+}

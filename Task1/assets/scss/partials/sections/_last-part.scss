@@ -1,0 +1,31 @@
+#last-part {
+    .footer-top {
+        background-color: rgb(211, 211, 211);
+        height: 70px;
+    }
+
+    .contact p {
+        margin-top: 25px;
+
+        span {
+            font-weight: 800;
+        }
+    }
+}
+
+.footer-bottom {
+    img {
+        height: 150px;
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    p {
+        margin-top: 60px;
+    }
+
+    ul {
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+}

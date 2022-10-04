@@ -1,0 +1,66 @@
+#question {
+    background-color: rgb(228, 228, 228);
+
+    .title {
+        margin-left: 200px;
+        margin-top: 50px;
+        h3 span:first-child {
+            font-weight: 300;
+            font-size: 50px;
+            width: 200px;
+        }
+
+        h3 span:nth-child(2) {
+            font-weight: 900;
+            font-size: 50px;
+            margin-left: 50px;
+        }
+
+        h3 {
+            width: 300px;
+            text-align: start;
+        }
+
+        p {
+            margin-top: 30px;
+            width: 300px;
+        }
+        
+    }
+
+    button {
+        background-color: rgb(247, 247, 0);
+        border: 0px;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    #a,
+    #b {
+        width: 47%;
+    }
+
+    #c {
+        width: 15%;
+    }
+
+    #d {
+        width: 80%;
+    }
+
+    #e,
+    button {
+        width: 100%;
+    }
+
+    input {
+        margin: 5px;
+        height: 60px;
+    }
+
+    .form-tags {
+        width: 400px;
+        height: 400px;
+        margin-top: 60px;
+    }
+}

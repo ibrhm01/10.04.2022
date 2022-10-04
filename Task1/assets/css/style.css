@@ -1,0 +1,408 @@
+.apply-btn button {
+  background-color: rgb(255, 255, 0);
+  border: 0;
+  padding: 15px 35px;
+  font-weight: 900;
+}
+
+.icon li {
+  margin: 0px 10px 50px 10px;
+}
+
+.header-top p {
+  height: 80px;
+  color: gray;
+  font-size: 12px;
+  margin-top: 70px;
+}
+
+.icon .additional li i {
+  display: none;
+}
+
+.pages ul {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  position: relative;
+  right: 230px;
+}
+.pages li {
+  margin: 0px 20px;
+  font-weight: 600;
+}
+
+.code-logo img {
+  height: 100px;
+  width: 150px;
+}
+
+#slider .image img {
+  height: 600px;
+  width: 100%;
+}
+
+.card {
+  width: 277px;
+  height: 200px;
+}
+
+#education .title h3,
+#why-code-az .title h3,
+#our-alumni .title h3 {
+  width: 100px;
+  position: relative;
+}
+#education .title h3 span:nth-child(1),
+#why-code-az .title h3 span:nth-child(1),
+#our-alumni .title h3 span:nth-child(1) {
+  font-weight: 900;
+}
+#education .title h3 span:nth-child(2),
+#why-code-az .title h3 span:nth-child(2),
+#our-alumni .title h3 span:nth-child(2) {
+  font-weight: 200;
+}
+#education .title p,
+#why-code-az .title p,
+#our-alumni .title p {
+  width: 500px;
+  margin-top: 90px;
+}
+
+.education-item p {
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+#education {
+  margin-top: 60px;
+}
+#education .purple:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(135, 35, 135);
+  z-index: 9999;
+}
+#education .yellow:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(215, 215, 40);
+  z-index: 9999;
+}
+#education .blue:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(51, 51, 165);
+  z-index: 9999;
+}
+#education .green:hover {
+  transform: scale(1.2, 1.2);
+  background-color: green;
+  z-index: 9999;
+}
+#education .title h3::after {
+  content: "";
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  margin: 40px 0px;
+}
+
+#why-code-az {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+#why-code-az .title h3::after {
+  content: "";
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  margin: 40px 0px;
+}
+
+.image img {
+  width: 208px;
+  height: 208px;
+}
+
+.why-code-az-item {
+  max-width: 500px;
+  margin-top: 60px;
+}
+.why-code-az-item .text {
+  margin-left: 50px;
+}
+
+#info {
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("/assets/home/code-academy-bg.jpeg");
+}
+#info h5,
+#info p,
+#info h3,
+#info h6 {
+  color: white;
+}
+#info h3 {
+  font-size: 70px;
+  font-weight: 800;
+}
+#info h6 {
+  font-size: 40px;
+  font-weight: 300;
+}
+#info .row {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.info-text h5 {
+  width: 700px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+
+.comment-item {
+  width: 200px;
+  position: relative;
+  left: 500px;
+  margin-top: 30px;
+}
+.comment-item img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.comment-item .image {
+  position: relative;
+  right: 100px;
+}
+
+.comment-title h2 {
+  font-size: 50px;
+  margin: 0 300px;
+}
+.comment-title h2 span:nth-child(1) {
+  font-weight: 300;
+}
+.comment-title h2 span:nth-child(2) {
+  font-weight: 900;
+}
+
+#comment {
+  min-height: 500px;
+}
+
+.comment-container {
+  position: relative;
+  top: 60px;
+}
+
+.comment-title p {
+  text-align: center;
+  width: 800px;
+  margin: 20px 150px 0px 150px;
+  font-size: 20px;
+  color: gray;
+}
+
+.name-profession {
+  margin-top: 20px;
+  position: relative;
+  right: 70px;
+}
+.name-profession h5 {
+  font-weight: 900;
+  font-size: 20px;
+}
+.name-profession h6 {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+.name-profession h5, .name-profession p {
+  width: 200px;
+}
+
+#partner .title h3 {
+  font-size: 50px;
+  margin-left: 350px;
+  text-align: center;
+  width: 100px;
+}
+#partner .title h3 span:first-child {
+  font-weight: 300;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+#partner .title h3 span:nth-child(2) {
+  font-weight: 900;
+}
+#partner .title p {
+  text-align: center;
+  width: 510px;
+  margin-left: 300px;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  position: relative;
+}
+#partner .title p::after {
+  content: "";
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  right: 215px;
+  margin-top: 30px;
+}
+
+.icon img {
+  height: 68px;
+  width: 120px;
+  margin: 0px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+#our-alumni .title {
+  margin: 0px 500px;
+}
+#our-alumni .title h3 {
+  position: relative;
+  right: 30px;
+}
+#our-alumni .title h3::after {
+  background-color: yellow;
+  content: "";
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#our-alumni .title h3 span:first-child {
+  margin-left: 40px;
+}
+#our-alumni img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+#our-alumni ul {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.our-alumni-container {
+  width: 100%;
+}
+
+#question {
+  background-color: rgb(228, 228, 228);
+}
+#question .title {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+#question .title h3 span:first-child {
+  font-weight: 300;
+  font-size: 50px;
+  width: 200px;
+}
+#question .title h3 span:nth-child(2) {
+  font-weight: 900;
+  font-size: 50px;
+  margin-left: 50px;
+}
+#question .title h3 {
+  width: 300px;
+  text-align: start;
+}
+#question .title p {
+  margin-top: 30px;
+  width: 300px;
+}
+#question button {
+  background-color: rgb(247, 247, 0);
+  border: 0px;
+  color: white;
+  padding: 20px 0px;
+}
+#question #a,
+#question #b {
+  width: 47%;
+}
+#question #c {
+  width: 15%;
+}
+#question #d {
+  width: 80%;
+}
+#question #e,
+#question button {
+  width: 100%;
+}
+#question input {
+  margin: 5px;
+  height: 60px;
+}
+#question .form-tags {
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+ul {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+ul li {
+  margin: 5px;
+}
+
+#shortcut ul li {
+  color: rgb(69, 69, 69);
+}
+#shortcut h6 {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+#last-part .footer-top {
+  background-color: rgb(211, 211, 211);
+  height: 70px;
+}
+#last-part .contact p {
+  margin-top: 25px;
+}
+#last-part .contact p span {
+  font-weight: 800;
+}
+
+.footer-bottom img {
+  height: 150px;
+  width: 200px;
+  margin-left: 60px;
+}
+.footer-bottom p {
+  margin-top: 60px;
+}
+.footer-bottom ul {
+  margin-left: 60px;
+  margin-top: 60px;
+}

@@ -1,0 +1,23 @@
+#why-code-az {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    .title h3::after {
+        @include gradient($width: 80px,$height: 3px);
+        right: 20px;
+        margin: 40px 0px;
+    }
+}
+
+.image img {
+    width: 208px;
+    height: 208px;
+}
+
+.why-code-az-item {
+    max-width: 500px;
+    margin-top: 60px;
+    .text {
+        margin-left: 50px;
+    }
+}
+

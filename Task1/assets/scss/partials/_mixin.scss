@@ -1,0 +1,14 @@
+@mixin hover($background-color) {
+    transform: scale(1.2, 1.2);
+    background-color: $background-color;
+    z-index: 9999;
+}
+
+@mixin gradient($width, $height) {
+    content: "";
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: 100%;
+}

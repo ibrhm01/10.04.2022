@@ -1,0 +1,21 @@
+
+@mixin button($top, $left) {
+    position: relative;
+    top: $top;
+    left: $left;
+    border: 0px;
+}
+
+@mixin paragraph{
+    position: relative;
+    top: 30px;
+    padding: 0px 30px;
+}
+
+@mixin title{
+    font-size: 30px;
+    margin:20px;
+    margin-left:30px;
+    margin-bottom:0px;
+    color: rgb(72, 72, 72);
+}

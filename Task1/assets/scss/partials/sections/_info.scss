@@ -1,0 +1,40 @@
+#info {
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/assets/home/code-academy-bg.jpeg");
+
+    h5,
+    p,
+    h3,
+    h6 {
+        color: white;
+    }
+
+    h3 {
+        font-size: 70px;
+        font-weight: 800;
+    }
+
+    h6 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .row {
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+}
+
+
+
+.info-text h5 {
+    width: 700px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}

@@ -1,0 +1,39 @@
+#our-alumni {
+    .title {
+        margin: 0px 500px;
+
+        h3 {
+            position: relative;
+            right: 30px;
+        }
+
+        h3::after {
+            background-color: yellow;
+            @include gradient($width: 80px,$height: 3px);
+            left: 40px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        h3 span:first-child {
+            margin-left: 40px;
+        }
+
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    ul {
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+}
+
+.our-alumni-container {
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 980px) {
+    #question .title {
+        position: relative;
+        right: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #question .title {
+        position: relative;
+        right: 230px;
+    }
+
+    .header-top .additional li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .header-top,
+    .header-bottom .pages {
+        display: none;
+    }
+
+    .icon .additional li i {
+        display: block;
+    }
+
+}
