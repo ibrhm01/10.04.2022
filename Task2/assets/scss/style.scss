@@ -38,6 +38,11 @@
         font-weight: 500;
         background-color: rgb(150, 2, 150);
         padding: 15px 45px;
+        &:hover{
+            color:black;
+            background-color:white;
+            border:1px solid black;
+        }
     }
 
     .personal,
